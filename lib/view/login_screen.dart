@@ -11,10 +11,10 @@ import 'package:get/get.dart';
 import 'home_screen.dart';
 
 class LoginScreen extends StatefulWidget {
-  String? email;
-  String? password;
+  // String? email;
+  // String? password;
 
-  LoginScreen({super.key, this.email, this.password});
+  const LoginScreen({super.key});
 
   @override
   State<LoginScreen> createState() => _LoginScreenState();
@@ -135,7 +135,6 @@ class _LoginScreenState extends State<LoginScreen> {
                                         vertical: 10, horizontal: 10),
                                     duration: const Duration(seconds: 2))
                               }
-
 
                             //** Get UserID Api **//
                             else

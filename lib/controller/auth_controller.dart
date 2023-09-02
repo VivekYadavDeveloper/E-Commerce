@@ -6,10 +6,7 @@ class AuthController extends GetxController {
   var isLoading = true.obs;
   var aproduct = Login().obs;
 
-  login(
-    String email,
-    String password,
-  ) async {
+  login(String email, String password) async {
     print("login controller is called");
     isLoading(true);
     try {
